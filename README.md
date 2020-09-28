@@ -21,3 +21,12 @@ MataFome é um aplicativo de delivery de comida com foco em lugares onde os gran
   - Descrição
   - Lista de itens adicionais ao pedido com quantidade
   - Botão para concluir pedido via whatapp ou app
+
+
+## Instanlando e rodando o projeto
+  - Instalando dependências e criando containers
+    * `make setup`
+  - Iniciar Backend
+    * `make backend`
+  - Iniciar FrontEnd
+    * `make frontend`
