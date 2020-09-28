@@ -2,12 +2,10 @@ const Meal = require('../models/Meal.js');
 
 module.exports = {
   async index(req, res) {
-    console.log("hey")
     const meals = await Meal.find();
     return res.json(meals);
   },
   async store(req, res) {
-    console.log("hey")
     const { name, description, value } = req.body;
     var orders = await Meal.find({
       name: name,
